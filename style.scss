@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700');
+
+.accueil{
+    background:url('img/569476.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.select{
+    background:url('img/4096x2160.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.donjon{
+    background:url('img/donjon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        margin-top: 30px;
+        text-align: center;
+        color: red;
+        font-family: 'Cinzel', serif;
+    }
+}
+.guerrier{
+    background:url('img/guerrier.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+.paladin{
+    background:url('img/paladin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+.magicien{
+    background:url('img/magicien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    color: red;
+}
+
+.titre_accueil {
+    text-align:center;
+    margin-top: 100px;
+    color: red;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+}
+.titre_select {
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+}
+h2 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: black;
+    color: red;
+    border: none;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    margin-left: 400px;
+    margin-top: 170px;
+}
+button:hover {
+    text-decoration: underline;
+}
+
+form {
+    text-align: center;
+    margin-top: 200px;
+}
+
+select {
+    margin-left: 10%;
+    width: 300px;
+    height: 50px;
+    margin: 20px 0 30px 0;
+    background-color: black;
+    font-family: 'Cinzel', serif;
+    color: red;
+    border-color: red;
+}
+.form-control {
+    width: 30%;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: black;
+    color: red;
+    border-color: red;
+    width: 240px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    position: relative;
+    font-family: 'Cinzel', serif;
+}
+input[type="text"]{
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.game {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.row {
+    position: relative;
+    z-index: -1;
+    margin-bottom: 50px;
+}
+.fiche {
+    display: block;
+    background: rgba(0, 0, 0, .5);
+    clear:both;
+    padding: 40px;
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
